@@ -1,0 +1,25 @@
+{
+  "name": "dynamodb-batch-writer",
+  "version": "0.1.0",
+  "description": "batch write to aws dynamodb with write limit handling",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khoi-nguyen-2359/dynamo-batch-writer.git"
+  },
+  "author": "Khoi Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khoi-nguyen-2359/dynamo-batch-writer/issues"
+  },
+  "homepage": "https://github.com/khoi-nguyen-2359/dynamo-batch-writer#readme",
+  "dependencies": {
+    "aws-sdk": "^2.22.0"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2"
+  }
+}
